@@ -1,0 +1,70 @@
+{
+  "version": "2",
+  "users": [
+    {
+      "name": "User",
+      "password": {
+        "hash": "bXvRGSVzlPjhfyFwm6L+iJHDpLJzmob3OaKU8v6mvYaJfu2xqgi0c2fddIuy2b6d3swG2qnAlK41sVcY+SrXAg==",
+        "salt": "GB/HSeHWWRoYJO58+ilSoJtGAkho86rK89D4st31fcE=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "User",
+      "comment": "",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 30
+    }
+  ],
+  "groups": [
+    {
+      "name": "HMI Administrator",
+      "roles": [
+        "HMI Administrator"
+      ],
+      "users": [
+        "User"
+      ]
+    },
+    {
+      "name": "HMI Operator",
+      "users": []
+    },
+    {
+      "name": "HMI Monitor",
+      "users": []
+    }
+  ],
+  "roles": [
+    {
+      "name": "HMI Administrator",
+      "rights": [
+        "UM_ADMIN",
+        "UM_RESETPWD",
+        "UM_IMPORT",
+        "UM_EXPORT",
+        "UM_VIEW"
+      ]
+    }
+  ],
+  "globalAccountPolicies": {
+    "enablePasswordHistoryByDays": 0,
+    "enablePasswordHistoryByNumber": 1,
+    "enablePasswordCheck": 1,
+    "numberOfPasswordBeforeReuse": 5,
+    "passwordAging": 0,
+    "passwordMaxLength": 120,
+    "passwordMinAlphaChar": 0,
+    "passwordMinLength": 8,
+    "passwordMinLowerChar": 1,
+    "passwordMinUpperChar": 1,
+    "passwordMinNumericChar": 1,
+    "passwordMinOtherChar": 0
+  },
+  "umcConfig": {
+    "local": {
+      "domainName": "UM_Domain"
+    }
+  }
+}
