@@ -5,7 +5,7 @@
 DF1 = "Reporting"
 DF2 = "RTS"
 DF3 = "JobScheduler"
-DF4 = "S7PlusCommunication"
+DF4 = "S7PlusCommunicationSim"
 
 [general]
 valueChangeTimeDiff = 180
@@ -13,7 +13,7 @@ valueChangeTimeDiff = 180
 [opcua]
 allowDuplicateOutputAddresses = 1
 
-[DF_S7PlusCommunication]
+[DF_S7PlusCommunicationSim]
 ManagerNumber = 1
 
 [s7]

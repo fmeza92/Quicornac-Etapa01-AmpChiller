@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo ProjectId="db3cf4b3-dd3c-4f46-abcb-c64745dba524" ESProjectName="Quicornac - AMP01" ESDeviceName="HMI_RT_1" RtProjectFolderName="Quicornac - AMP01.HMI_1[MTP700 Unified Comfort]" RtProjectName="Quicornac - AMP01.HMI_1[MTP700 Unified Comfort]" DeviceType="MTP700 Unified Comfort" DeviceVersion="17.0.0.0" CreationTime="10/14/2021 12:08:40" RuntimeAddonFolderName="UCP_7_22" FirmwareFileName="UCP_7_22\UCP_7_22_V17_0.fwf" RuntimeFileName="" PRCV="3.0.0.0" RTCV="0.0.0.0" RTReleaseNo="17.0.0.0" ImageReleaseNo="17.0.0.1" />
+  <FullDownload>InfoAttentionDark.svghmi</FullDownload>
+  <FullDownload>InfoDangerDark.svghmi</FullDownload>
+  <FullDownload>Running.svghmi</FullDownload>
   <FullDownload type="ADMINDATA">UMCData.json</FullDownload>
   <FullDownload>User.pbb</FullDownload>
   <FullDownload>{894AD6A7-6155-424B-AA9D-7E77FD174D24}.zip</FullDownload>
@@ -35,7 +38,10 @@
   <FullDownload>general\textListLibrary.rdf</FullDownload>
   <FullDownload>graphics\graphicListLibrary.rdf</FullDownload>
   <FullDownload>graphics\imageLibrary_1033.rdf</FullDownload>
-  <FullDownload>screens\screen_197.rdf</FullDownload>
-  <FullDownload>screens\screen_199.rdf</FullDownload>
+  <FullDownload>screens\screen_267.rdf</FullDownload>
+  <FullDownload>screens\screen_268.rdf</FullDownload>
+  <FullDownload>screens\screen_269.rdf</FullDownload>
+  <FullDownload>screens\screen_273.rdf</FullDownload>
+  <FullDownload>screens\screen_274.rdf</FullDownload>
   <FullDownload>system\ProjectCharacteristics.rdf</FullDownload>
 </DownloadTask>
